@@ -78,6 +78,7 @@ public class UserUI extends JFrame implements ActionListener {
 		DepartmentUI frame = new DepartmentUI();
 		frame.setVisible(true);
 	}
+	
 	protected void actionPerformedBtnTitle(ActionEvent arg0) {
 		JOptionPane.showMessageDialog(null, "직책버튼 클릭");
 		TitleUI frame = new TitleUI();
